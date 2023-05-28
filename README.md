@@ -29,6 +29,8 @@ python main.py --css <css_file> [--output <output_directory>]
 - --css or -c: Specifies the CSS file or URL containing the fonts to download.
 - --output or -o (optional): Specifies the folder to store the downloaded fonts. Default is the "fonts" folder.
 
+You can now copy the CSS file provided by your font supplier (e.g. Google Fonts) and replace the beginning of the URL with your local path.
+
 ## Example
 
 Here's an example of how to use FontHarvest to download fonts from a CSS file:
