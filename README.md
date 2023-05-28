@@ -31,6 +31,28 @@ python main.py --css <css_file> [--output <output_directory>]
 
 You can now copy the CSS file provided by your font supplier (e.g. Google Fonts) and replace the beginning of the URL with your local path.
 
+**Here's how to perform the replacement in the main IDEs.**
+- Visual Studio Code (VS Code):   
+    1. Select the text you wish to modify. 
+    2. Press Ctrl+H to open the search and replace dialog box. 
+    3. Enter the search string in the "Search" field and the replacement string in the "Replace with" field.   
+    4. Use the available options (such as case-sensitive search, search within selection, etc.) as required.   
+    5. Click the "Replace" button to replace one occurrence at a time, or "Replace All" to replace all occurrences at once.     
+
+-   IntelliJ :
+    1. Select the text you wish to modify. 
+    2. Press Ctrl+R to open the search and replace dialog box. 
+    3. Enter the search string in the "Search" field and the replacement string in the "Replace with" field.   
+    4. Use the available options (such as case-sensitive search, search within selection, etc.) as required.   
+    5. Click the "Replace" button to replace one occurrence at a time, or "Replace All" to replace all occurrences at once.        
+
+-   Xcode : 
+    1. Select the text you wish to modify. 
+    2. Press Cmd+Shift+F to open the search and replace dialog box.    
+    3. Enter the search string in the "Search" field and the replacement string in the "Replace with" field.   
+    4. Use the available options (such as case-sensitive search, search within selection, etc.) as required.   
+    5. Click on the "Replace" button to replace one occurrence at a time, or on "Replace All" to replace all occurrences at once.  
+
 ## Example
 
 Here's an example of how to use FontHarvest to download fonts from a CSS file:
